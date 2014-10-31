@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Power Analyzer</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Power Analyzer</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#hiw">How It Works</a>
+                    </li>
+                    <li>
+                        <a href="#development">Development</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Full Width Image Header -->
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Power Analyzer</h1>
+                <h2>A better android power analysis app</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <hr class="featurette-divider">
+
+        <!-- First Featurette -->
+        <div class="featurette" id="about">
+            <!-- <img class="featurette-image img-circle img-responsive
+                pull-right" src="http://placehold.it/500x500"> -->
+            <h2 class="featurette-heading">About</h2>
+            <p class="lead">Power Analyzer is an app that more accurately
+            estimates the power being used by and Android phone. It improves
+            upon existing methods by measuring current directly to give more
+            accurate real-time estimates, using additional variables to model
+            the power such as performance counters, and by reporting on
+            combinations of apps that together take more power than each does
+            alone.</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Second Featurette -->
+        <div class="featurette" id="hiw">
+            <!-- <img class="featurette-image img-circle img-responsive
+                pull-left" src="http://placehold.it/500x500"> -->
+            <h2 class="featurette-heading">How It Works</h2>
+            <p class="lead">Power Analyzer continuously updates a model of the
+            phone's power consumption using real-time information from the
+            current sensor. The model takes information about which modules are
+            being used on the phone and to what degree and uses it to predict
+            the power being used. Using the model, Power Analyzer compares each
+            app's contribution to the total power consumption of the phone to
+            identify which apps cause the phone to consume much more power</p>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Third Featurette -->
+        <div class="featurette" id="development">
+            <!-- <img class="featurette-image img-circle img-responsive
+                pull-right" src="http://placehold.it/500x500"> -->
+            <h2 class="featurette-heading">Development</h2>
+            <p class="lead">Development is in progress. We are on schedule as
+            follows:</p>
+            <dl class="lead">
+                <dt>10/13</dt>
+                <dd>Be able to access system sensors</dd>
+                <dt>10/20</dt>
+                <dd>Build current monitor app</dd>
+                <dt>10/28</dt>
+                <dd>Presentation and report</dd>
+                <dt>11/7</dt>
+                <dd>Use performance counter model</dd>
+                <dt>11/15</dt>
+                <dd>Run on test suite</dd>
+                <dt>12/4</dt>
+                <dd>Poster and report</dd>
+            </dl>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Phillip Fynan, Gun Charnmanee 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
